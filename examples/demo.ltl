@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_segment_tree
+
+import std::io
+use ltl_segment_tree as lib
+
+fn main() {
+    io::println("ltl_segment_tree demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
